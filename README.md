@@ -1,8 +1,12 @@
 # Documentation
 
-This is where I do my writing now, because f*** blogs. What a pain in the arse every
-last one of them is. Here be good old fashioned markdown and no round f***ery with
-frameworks or SSG's.
+This is where I do my writing now, because even with a SSG, there's too much
+fucking around with stuff that doesn't matter instead of just hammering out
+content.
+
+Plus: no comment software. If you see something in a "post" that doesn't
+make sense or contains offensive errors, open an issue referencing the content
+that annoys or intrigues you. :boom: open source.
 
 ## About
 
