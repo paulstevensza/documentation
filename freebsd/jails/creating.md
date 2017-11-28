@@ -53,7 +53,7 @@ nat on $ext_if from $jail_net to any -> $ext_addr port 1024:65535 static-port
 rdr pass on $ext_if inet proto tcp to port $NGINX_TCP_PORTS -> $NGINX
 ```
 
-Then create and access a new jail (you only really need the last two commands):
+Then create and access a new jail (you only really need the first and last commands):
 
 ```
 ezjail-admin create nginx 127.0.2.1
