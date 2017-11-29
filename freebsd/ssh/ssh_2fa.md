@@ -41,7 +41,9 @@ Do you want to enable rate-limiting (y/n) y
 >
 ```
 
-Click on the click using your auth app (I like authy) and create a new account/login/whatever.
+Copy the link generated under the initial command, and using your auth app (I like authy), create a new
+account/login/whatever. This, obviously, is the source for the six digit token that comprises the something you have
+part of 2FA.
 
 Then, edit `/etc/pam.d/sshd` to look as follows:
 
