@@ -10,7 +10,8 @@ Oddly, at work, where we auth out via a FortiGate firewall that asks Active Dire
 Additionally, if you attempt to get out to another website, you can't get the auth prompt unless the site you're visiting
 doesn't use HTTPS, which is becoming increasingly rare.
 
-Because of this, I now run `http://captive.xnode.co.za` in a normal browser window to help me break out (which I won't be applying HTTPS to). I'm
+Because of this, I now run `http://captive.xnode.co.za` in a normal browser window to help me break out (which I won't be 
+applying HTTPS to). I'm
 also looking for a way to change `captive.apple.com` to `captive.xnode.co.za`, to see if that would fix whatever issue
 the FW has with the page at the end of Apple's link.
 
@@ -159,3 +160,9 @@ I'm assuming that if you're on a specific provider network, you get bounced to a
 in your login creds, else you get served the default "Safari" authentication dialogue.
 
 So, to disable SIP and edit the file, or not? Hmmm...
+
+## Conclusion
+
+You can try and get your LAN FW admins to do certificate based auth against AD, which removes the need for CNA to try and
+authenticate you in the first place. For a few months, I can my own captive website and set it as the homepage on my browser, 
+but once the guys "fixed" FW auth against AD, the issue went away, and I killed the VM that my HTTP side ran off of.
