@@ -18,4 +18,7 @@ For each role/play, there should be a series of tests that vet what the resource
 that it works as advertised. Just trapping Ansible resources in your nearest git/svn/mercurial is not enough, and I believe 
 that testable infrastructure is what differentiates true IaC from "hey, we can haz plays".
 
+Writings on IaC are contained in my `molecule.md` file in this subfolder, as Molecule is the provisioner we're using to
+create test instances, push roles/plays and invoke Testinfra to run unit tests against fresh machines on each commit.
+
 [1]: https://molecule.readthedocs.io/en/latest/
