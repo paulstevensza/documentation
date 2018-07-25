@@ -62,3 +62,41 @@ spec:
 ```
 
 Click "Upload".
+
+## Create a custom namespace
+
+Make trashing things a little easier when dev inevitably gets out of control and you can't roll back your own mess:
+
+```bash
+$ kubectl create namespace <name>
+```
+
+## Start Minikube with a local registry and the Hyperkit driver
+
+```bash
+$ minikube start --vm-driver hyperkit --insecure-registry localhost:5000
+$ eval $(minikube docker-env)
+```
+
+Create a local registry container with Docker (boots into minikube VM because of the `eval` command):
+
+```bash
+$ docker run -d -p 5000:5000 --restart=always --name registry   -v /data/docker-registry:/var/lib/registry registry:2
+```
+
+## Add a rethink image to the local registry
+
+```bash
+$ docker pull rethinkdb
+$ docker tag rethinkdb localhost:5000/xnode/rethinkdb-2.3.6
+$ docker push localhost:5000/xnode/rethinkdb-2.3.6
+```
+
+RethinkDB can be booted into minikube with:
+
+```yaml
+spec:
+  containers:
+  - image: localhost:5000/xnode/rethinkdb-2.3.6
+    name: rethinkdb
+```
