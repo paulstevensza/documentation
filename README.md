@@ -1,45 +1,37 @@
 # Documentation
 
-This is where I do my writing now, because even with a SSG, there's too much
-fucking around with stuff that doesn't matter instead of just hammering out
-content.
+This is where I keep notes of stuff I'm working on. Some of it will become blog
+posts on [xnode.co.za](http://xnode.co.za) while some of it will just live
+here as a technical reference that I can't lose in a fit of pique with my
+current blogging platform.
 
-Plus: no comment software. If you see something in a "post" that doesn't
-make sense or contains offensive errors, open an issue referencing the content
-that annoys or intrigues you. :boom: open source.
+It covers almost everything I work on, and acts as a substitute for my
+sometimes piss poor memory.
 
 ## About
 
-If you want to use anything you find here, go ahead. I don't even want you to
-mention the source if you're using it in your own writing, or to have to pass
-any links back to the original docs. You can if you like, but why bother? It's
-not like a shitty post on building jails in FreeBSD is suddenly going to garner
-me international fame...especially since I grokked the content out of the
-documentation anyway.
+I put time and effort into my research, so I'm licensing this under a
+MIT license. I don't expect anything else except a mention of where you
+found this and maybe a link back to my blog or this repo.
 
-## Unlicense
+## MIT License
 
-This is free and unencumbered software released into the public domain.
+Copyright (c) 2017-2018 Paul Stevens
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-For more information, please refer to <http://unlicense.org>
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
